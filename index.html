@@ -1,0 +1,68 @@
+<!DOCTYPE html><!-- Versâo do html -->
+<html lang="pt-br"><!-- tag html e lingua do site -->
+
+<head><!-- configuraçâO do site -->
+    <meta charset="UTF-8"><!-- padrão de caracteres do site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- site conpativel com celular e computador -->
+    <link rel="stylesheet" href="style.css"> <!-- importando meu arquivo css -->
+    <title>Devclub - tesla</title> <!-- titulo do site -->
+</head>
+
+
+<body>
+    <img src="./img/logo.png" alt="logo da tesla" class="logo">
+
+
+    <ul class="lista">
+        /*item 1*/
+        <li class="item">
+
+            <video src="img/model-y.mp4" autoplay loop muted></video>
+
+            <div class="info-carro">
+                <h1>model y</h1> <!-- titulo -->
+                <p class="sub-titulo">parcela a partir de 499 dólares</p>
+            </div>
+
+            <div class="rodape">
+                <button onclick="aparecerformulario()">comprar agora</button>
+                <button class="test-drive">faça um test-drive</button>
+                <p class="texto-rodape">não garantimos seu veiculo imediatamente.consultar estoque*</p>
+            </div>
+
+        </li>
+        
+        <li class="item">
+
+            <img src="./img/model-3.png" class="img-tesla" alt="imagem model-3">
+
+            <div class="info-carro">
+                <h1>model y</h1> <!-- titulo -->
+                <p class="sub-titulo">compre agora o seu tesla</p>
+            </div>
+
+        </li>
+    
+        <li class="item">
+
+           <img src="img/model-x.png" class="img-tesla" alt="imagem model-x">
+
+            <div class="info-carro">
+                <h1>model-x</h1> <!-- titulo -->
+                <p class="sub-titulo">parcela a partir de 499 dólares</p>
+            </div>
+
+        </li>
+    </ul>
+
+    <div class="formulario">
+        <button onclick=" desaparecerformulario()">Fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241928223933055"></script>
+    </div>
+
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
